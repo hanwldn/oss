@@ -84,17 +84,17 @@
 
 
 2) ps -l
-> 상세한 정보를 보여줌
 ![ps2](https://user-images.githubusercontent.com/91604969/171818793-63b54971-fc21-4f86-a450-0257fa162a40.png)
 
+  * 상세한 정보를 보여줌
   * S는 sleep 중단 상태
   * R은 run 실행 상태
 
 
 3) ps -e
-> 시스템 전체 프로세스 보여줌
 ![ps3](https://user-images.githubusercontent.com/91604969/171818998-8681c363-9818-40f8-962c-e019dc788cbf.png)
 
+  * 시스템 전체 프로세스를 보여줌
 
 4) ps -u [user_name]
 <img width="254" alt="ps4" src="https://user-images.githubusercontent.com/91604969/171819296-cfea652e-790c-4615-a80a-2c06e889286f.png">
@@ -114,4 +114,58 @@
 
   * 위의 사진은 프로세스의 번호가 1인 프로세스를 출력하는 경우임
 
+
+---
+
+## job 명령어
+
+### job
+
+> 작업이 중지된 상태, 백그라운드로 진행 중인 작업 상태, 변경되었지만 보고되지 않은 상태등을 표시하는 명령어
+
+### 주요 옵션
+
+|옵션|설명|
+|---|---|
+|-l|프로세스 그룹 ID를 state 필드 앞에 출력|
+|-n|프로세스 그룹 중에 대표 프로세스 ID를 출력|
+|-p|각 프로세스 ID에 대한 한 행씩 출력|
+|command|지정한 명령어를 실행|
+
+
+#### 사용법
+` jobs [옵션] [작업번호]
+
+
+### jobs으로 출력되는 백그라운드 작업의 상태 값
+
+|상태|설명|
+|---|---|
+|Running|작업이 계속 진행 중임|
+|Done|작업이 완료되어 0을 반환|
+|Done(code)|작업이 종료되었으며 0이 아닌 코드를 반환했음을 의미|
+|Stopped|작업이 일시 중단|
+|Stopped(SIGTSTP)|SIGTSTP 시그널이 작업을 일시 중단|
+|Stopped(SIGSTOP)|SIGSTOP 시그널이 작업을 일시 중단|
+|Stopped(SIGTTIN)|SIGTTIN 시그널이 작업을 일시 중단|
+|Stopped(SIGTTOU)|SIGTTOU 시그널이 작업을 일시 중단|
+
+
+---
+
+## kill 명령어
+
+### kill
+
+> 프로세스를 강제 종료시키는 명령어
+> 실행 중인 프로세스를 죽임(-9 옵션을 사용함)
+
+#### 사용법
+` kill -9 [죽일 프로세스의 PID]
+![kill1](https://user-images.githubusercontent.com/91604969/171821561-8f40eed9-c8e7-4993-ac01-a05b3352f1b6.png)
+
+
+---
+
+## vim 에디터 매크로 사용방법
 
