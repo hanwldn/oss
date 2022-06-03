@@ -84,6 +84,7 @@
 
 
 2) ps -l
+
 ![ps2](https://user-images.githubusercontent.com/91604969/171818793-63b54971-fc21-4f86-a450-0257fa162a40.png)
 
   * 상세한 정보를 보여줌
@@ -92,11 +93,13 @@
 
 
 3) ps -e
+
 ![ps3](https://user-images.githubusercontent.com/91604969/171818998-8681c363-9818-40f8-962c-e019dc788cbf.png)
 
   * 시스템 전체 프로세스를 보여줌
 
 4) ps -u [user_name]
+
 <img width="254" alt="ps4" src="https://user-images.githubusercontent.com/91604969/171819296-cfea652e-790c-4615-a80a-2c06e889286f.png">
 
   * user_name 또는 UID의 모든 프로세스를 보여줌
@@ -106,10 +109,12 @@
 
 
 5) ps -f
+
 ![ps5](https://user-images.githubusercontent.com/91604969/171819555-288ec309-6eeb-43c2-9643-be93a3d5aeb4.png)
 
 
 6) ps -p 1
+
 <img width="244" alt="ps6" src="https://user-images.githubusercontent.com/91604969/171819627-0c535f73-e2d6-4cf3-a201-ad91415efa72.png">
 
   * 위의 사진은 프로세스의 번호가 1인 프로세스를 출력하는 경우임
@@ -134,6 +139,7 @@
 
 
 #### 사용법
+
 ` jobs [옵션] [작업번호]
 
 
@@ -161,7 +167,9 @@
 > 실행 중인 프로세스를 죽임(-9 옵션을 사용함)
 
 #### 사용법
+
 ` kill -9 [죽일 프로세스의 PID]
+
 ![kill1](https://user-images.githubusercontent.com/91604969/171821561-8f40eed9-c8e7-4993-ac01-a05b3352f1b6.png)
 
 
