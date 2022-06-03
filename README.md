@@ -78,6 +78,7 @@
 |-u|특정 사용자의 프로세스를 보여줌|
 
 1) 옵션이 없는 경우
+
 <img width="219" alt="ps1" src="https://user-images.githubusercontent.com/91604969/171818469-ec1febd3-de11-4e4b-ba98-046019a9331d.png">
 
 * PID: 프로세스의 ID 변호
