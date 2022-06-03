@@ -3,7 +3,7 @@
 ---
 ## top 명령어
 
-' top
+top
 
 서버 상태를 모니터링 및 점검해야 하는 경우 사용하는 명령어
 
@@ -19,4 +19,5 @@
 |-p pid|지정한 프로세스 id의 정보만 출력|
 
 설명
-<img src="C:\Users\user\OneDrive\바탕 화면\학교\2학년 1학기 수업\오픈소스\이미지" width="1000" height="400">
+![top1](https://user-images.githubusercontent.com/91604969/171815050-122b8a0d-2364-40ad-82dc-cefabb53947c.png)
+
