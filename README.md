@@ -145,7 +145,7 @@
 
 #### 사용법
 
-` jobs [옵션] [작업번호]
+` jobs [옵션] [작업번호] `
 
 
 ### jobs으로 출력되는 백그라운드 작업의 상태 값
@@ -174,7 +174,7 @@
 
 #### 사용법
 
-` kill -9 [죽일 프로세스의 PID]
+` kill -9 [죽일 프로세스의 PID] `
 
 ![kill1](https://user-images.githubusercontent.com/91604969/171821561-8f40eed9-c8e7-4993-ac01-a05b3352f1b6.png)
 
